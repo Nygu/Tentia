@@ -355,6 +355,7 @@ function(jQuery, Paths, URI, HostApp, Cache) {
             template.geo.style.display = "";
         }
 
+/* Edited out the link to the source app
         if (typeof status.__repost != "undefined") {
             template.source.href = status.__repost.app.url;
             template.source.innerHTML = status.__repost.app.name;
@@ -364,7 +365,7 @@ function(jQuery, Paths, URI, HostApp, Cache) {
             template.source.innerHTML = status.app.name;
             template.source.title = status.app.url;
         }
-
+*/
         return template.item;
     }
 
