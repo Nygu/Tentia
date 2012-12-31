@@ -634,7 +634,7 @@ function(jQuery, Paths, URI, HostApp, Cache) {
                             mention.text, 
                             "<a href='" + mention.entity + "' class='name' title='" + mention.entity + "'>"
                             + "@" + name
-                            + "</a>"
+                            + "</a>" + ","
                         );
 
                         node.innerHTML = new_text;
