@@ -633,7 +633,7 @@ function(jQuery, Paths, URI, HostApp, Cache) {
                         var new_text = node.innerHTML.replace(
                             mention.text, 
                             "<a href='" + mention.entity + "' class='name' title='" + mention.entity + "'>"
-                            + name
+                            + "@" + name
                             + "</a>"
                         );
 
