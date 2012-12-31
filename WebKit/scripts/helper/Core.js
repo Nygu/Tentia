@@ -109,7 +109,7 @@ function(jQuery, Paths, URI, HostApp, Cache) {
         var ago = a.cloneNode();
         date.appendChild(ago);
         
-        var from = document.createTextNode(" from ");
+        var from = document.createTextNode("");
         date.appendChild(from)
         
         var source = document.createElement("a");
