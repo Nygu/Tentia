@@ -157,7 +157,6 @@ li .name:first-child {
     color: green;
     text-shadow: none;
     border-radius: 5px;
-	padding: 0 3px 0px 3px;
     border-left: 2px orange;
 }
 
